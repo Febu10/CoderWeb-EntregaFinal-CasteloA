@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Artículos destacados de Tendencia Urbana. Lee los últimos artículos sobre moda y tendencias urbanas.">
+    <meta name="keywords" content="tendencia urbana, artículos, moda urbana">
+    <title>Tendencia Urbana - Carrusel</title>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Tendencia Urbana</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./novedades.html">Novedades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./articulos.html">Articulos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./formulario.html">Contactos</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <style>
+        /* Estilos para el carrusel */
+        #carouselExampleIndicators .carousel-item img {
+            height: 100vh;
+            object-fit: cover;
+        }
+
+        @media screen and (min-width: 700px) {
+            #carouselExampleIndicators .carousel-item img {
+                height: 60vh; /* Limitar la altura máxima al 50% del viewport */
+            }
+        }
+
+        /* Estilos generales */
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer .social-icons {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        footer .social-icons a {
+            color: #555555;
+            font-size: 24px;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+
+        footer .social-icons a:hover {
+            color: #000000;
+        }
+    </style>
+
+    <section class="container">
+        <h1 class="text-center">MODA VIAJES GASTRONOMIA TECNOLOGIA</h1>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../imagenes/haciendoCorazon.jpg" class="d-block w-100" alt="Imagen 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="../imagenes/parejaEnBici.jpg" class="d-block w-100" alt="Imagen 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="../imagenes/resto-Ingland.jpg" class="d-block w-100" alt="Imagen 3">
+                </div>
+                <div class="carousel-item">
+                    <img src="../imagenes/pasarellaBlack.jpg" class="d-block w-100" alt="Imagen 4">
+                </div>
+                <div class="carousel-item">
+                    <img src="../imagenes/pink-hair.jpg" class="d-block w-100" alt="Imagen 5">
+                </div>
+            </div>
+
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Siguiente</span>
+            </a>
+        </div>
+
+        <div class="articulos-container">
+            <article class="articulo">
+                <h2>Historias de Viajes lugares y vivencias</h2>
+                <h5>Un emocionante viaje en globo </h5>
+                <p> Había llegado el día tan esperado para Marta y Diego, una pareja apasionada por las aventuras y 
+                    los viajes. Su destino esta vez era el cielo, donde vivirían una experiencia inolvidable: 
+                    un emocionante viaje en globo aerostático.
+                </p>
+                <p>A medida que el globo tomaba forma, el piloto, un hombre con amplia experiencia en vuelos, 
+                    les dio una charla de seguridad y les explicó cómo sería el viaje. Apenas minutos después, 
+                    estaban a bordo,flotando suavemente sobre la tierra.
+                </p>
+                <p>El piloto les señaló algunos lugares de interés a lo largo del viaje, y les contó historias 
+                    fascinantes sobre la región. Disfrutaron de la compañía de otras personas que compartían 
+                    la misma aventura en globo, lo que generó un ambiente cálido y amigable.
+                </p>
+                <p>A medida que el sol se elevaba en el cielo, los colores del paisaje se volvieron aún más vibrantes.
+                     El cielo se teñía de tonos dorados y rosados, creando un escenario mágico
+                </p>
+                <p> Al aterrizar, el equipo de globos los recibió con aplausos y felicitaciones. Habían compartido un viaje 
+                    inolvidable, lleno de emociones y maravillas. Marta y Diego se abrazaron, agradecidos por haber vivido 
+                    juntos esa aventura única en el cielo.  
+                </p>
+                <p> Ahora es momento de que pienses en tu propia aventura...
+                 </p>
+            </article>
+        </div>
+    </section>
+
+    <footer>
+        <p>Derechos de autor &copy; 2023 @reinartecreativo</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        // Iniciar el carrusel con un intervalo de 2500 ms (2,5 segundos)
+        $('.carousel').carousel({
+            interval: 2500
+        });
+    </script>
+</body>
+</html>

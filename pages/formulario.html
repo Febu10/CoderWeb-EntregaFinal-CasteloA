@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Ponte en contacto con Tendencia Urbana. Completa el formulario para enviarnos tus consultas y comentarios.">
+    <meta name="keywords" content="tendencia urbana, contacto, formulario de contacto">
+    <title>Tendencia Urbana - Contacto</title>
+    <link rel="stylesheet" href="../estilos/miestilo.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Tendencia Urbana</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./novedades.html">Novedades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./articulos.html">Articulos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./carrusel.html">Viajes</a>
+                    </li>
+                  
+                </ul>
+            </div>
+        </nav>
+
+        
+              
+     </header>
+
+    <section class="container">
+        <h1 class="text-center">Red de Publicidad</h1>
+        <h4>Para publicar en nuestro sito llena el formulario y te contactaremos a la brevedad</h4>
+        
+        <form class="contact-form">
+            <body>
+             
+                <form action="enviar" method="post">
+                  <label for="nombre">Nombre:</label><br>
+                  <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre" required><br>
+              
+                  <label for="email">Correo Electrónico:</label><br>
+                  <input type="email" id="email" name="email" placeholder="nombre@example.com" required><br>
+
+                  <label for="telefono">Telefono:</label><br>
+                  <input type="number" id="telefono" name="telefono" placeholder="telefono" required><br>
+              
+                  <label for="mensaje">Mensaje:</label><br>
+                  <textarea id="mensaje" name="mensaje" rows="7" cols="60vh" placeholder="Escribe aqui tu mensaje..." required></textarea><br>
+              
+                  <input type="submit" value="Enviar">
+                </form>
+              </body>
+              
+              
+        </form>
+    </section>
+
+  
+
+    <footer>
+       
+            <p>Derechos de autor &copy; 2023 @reinartecreativo</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/tu-pagina" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.twitter.com/tu-pagina" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/tu-pagina" target="_blank"><i class="fab fa-instagram"></i></a>
+              </div>
+
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
